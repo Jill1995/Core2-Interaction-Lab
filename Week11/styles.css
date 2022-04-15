@@ -1,0 +1,14 @@
+img{
+    width: 400px;
+    border: solid 1em;
+    border-color: black;
+    
+}
+
+.options{
+    color: red;
+}
+
+#option1{
+    color: blue;
+}
