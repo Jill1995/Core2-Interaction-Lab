@@ -1,4 +1,35 @@
+body{
+    width: 100%;
+    height: 100%;
+    background: wheat;
+}
+
+.before-change{
+    font-size: 50px;
+    text-decoration: line-through;
+}
+
+.change{
+    text-decoration: overline;
+    animation: rotate 2s ;
+}
+
 img{
     width: 500px;
     height: auto;
+}
+
+.imageadded{
+    width: 200px;
+    height: auto;
+}
+
+@keyframes rotate{
+    from {
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
 }
